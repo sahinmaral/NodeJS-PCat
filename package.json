@@ -1,0 +1,29 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "PCAT Photo App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "photo",
+    "app",
+    "camera"
+  ],
+  "author": "sahin.maral",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.18",
+    "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.4.1",
+    "uuid": "^8.3.2"
+  }
+}
